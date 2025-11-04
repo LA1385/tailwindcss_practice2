@@ -30,9 +30,9 @@
                 <div class="flex items-center gap-x-3">
                     <div class="flex gap-x-3">
                         <span
-                            class=" font-bold  rounded-md hover:bg-yellow-400 text-white hover:text-blue-800 transition ease-out duration-500 cursor-pointer">Login</span>
+                            class=" font-bold p-2 rounded-md hover:bg-yellow-400 text-white hover:text-blue-800 transition ease-out duration-500 cursor-pointer">Login</span>
                         <span
-                            class="hover:bg-yellow-400  hover:text-blue-800 text-white font-bold rounded-md cursor-pointer">Sign
+                            class="hover:bg-yellow-400 p-2 hover:text-blue-800 text-white font-bold rounded-md cursor-pointer">Sign
                             up</span>
                     </div>
                     <div class="bg-yellow-400 h-9 p-2 rounded-md flex justify-center cursor-pointer lg:hidden"
@@ -87,47 +87,62 @@
     </div>
     
     <!-- FEATURES -->
-    <div>
-        <div></div>
-        <h3></h3>
+    <div class="bg-white flex flex-col px-4 md:px-8 py-15 justify-center items-center gap-y-8">
+        <div class=" w-20 py-2 px-2 text-center text-sm bg-pink-200 text-purple-900
+         font-semibold rounded-lg">Feature</div>
+        <h3 class="text-lg md:text-2xl font-bold">Impressive Features</h3>
         <!-- Features itself -->
-        <div>
+        <div class="grid grid-cols-3 gap-x-1 md:gap-x-4">
             <!-- Ones of it -->
-            <div>
-                <div>
-                    <span></span>
+            <div class="col-span-1 flex flex-col justify-center items-center gap-y-2">
+                <div class="p-2 bg-pink-500 h-10 w-10 md:h-15 md:w-15 rounded-xl">
+                    <svg class="text-white font-bold " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                        className="size-6">
+                        <path strokeLinecap="round" strokeLinejoin="round"
+                            d="M20.25 8.511c.884.284 1.5
+                         1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                    </svg>
                 </div>
-                <h5></h5>
-                <p></p>
+                <h5 class="font-bold text-sm md:text-lg text-center"> Discover Peoples</h5>
+                <p class="text-xs md:text-sm text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <!-- Ones of it -->
-            <div>
-                <div>
-                    <span></span>
+            <div class="col-span-1 flex flex-col justify-center items-center gap-y-2">
+                <div class="p-2 bg-blue-500 h-10 w-10  md:h-15 md:w-15 rounded-xl ">
+                    <svg class="text-white font-bold " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                        className="size-6">
+                        <path strokeLinecap="round" strokeLinejoin="round"
+                            d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z" />
+                    </svg>
                 </div>
-                <h5></h5>
-                <p></p>
+                <h5 class="font-bold text-sm md:text-lg text-center"> Private Chatting</h5>
+                <p class="text-xs md:text-sm text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <!-- Ones of it -->
-            <div>
-                <div>
-                    <span></span>
+            <!-- One of it -->
+            <div class=" col-span-1 flex flex-col justify-center items-center gap-y-2">
+                <div class="p-2 bg-purple-700 h-10 w-10 md:h-15 md:w-15 rounded-xl">
+                    <svg class="text-white font-bold " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                        className="size-6">
+                        <path strokeLinecap="round" strokeLinejoin="round"
+                            d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                    </svg>
                 </div>
-                <h5></h5>
-                <p></p>
+                <h5 class="font-bold text-sm md:text-lg text-center"> Near By</h5>
+                <p class="text-xs md:text-sm text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
         </div>
     </div>
     
     <!-- APP WORKS -->
-    <div>
-        <div>
-            <img src="" alt="">
+    <div class="py-3 px-8 flex flex-col items-center justify-center gap-y-4 md:grid md:grid-cols-3 md:gap-x-4 bg-zinc-300">
+        <div class="md:col-span-2">
+            <img class="w-full" src="images/phone.png" alt="Chats">
         </div>
-        <div>
-            <h3></h3>
-            <p></p>
-            <div>
+        <div class="col-span-1 flex flex-col gap-y-3">
+            <h3 class="text-xl md:text-2xl font-bold text-center md:text-left">How App Works</h3>
+            <p class="text-center md:text-left">Flow is for everyone,from freelancers and business owners to young families.</p>
+            <div class=" px-2 py-1 font-semibold text-white text-center md:text-left hover:bg-yellow-500 rounded-md hover:text-blue-950 hover:w-30 hover:text-semibold transition ease-out duration-500 hover:cursor-pointer">
+                Check More
             </div>
         </div>
     </div>
