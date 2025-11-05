@@ -46,13 +46,6 @@
                 </div>
             </nav>
         </div>
-        <div class="hidden bg-yellow-400 p-4 lg:hidden" id="navBar">
-            <div><a href="#" class="font-bold hover:text-blue-800 hover:font-bold">Home</a></div>
-            <div><a href="#" class="font-bold hover:text-blue-800 hover:font-bold">Features</a></div>
-            <div><a href="#" class="font-bold hover:text-blue-800 hover:font-bold">How Works</a></div>
-            <div><a href="#" class="font-bold hover:text-blue-800 hover:font-bold">Testimonials</a></div>
-            <div><a href="#" class="font-bold hover:text-blue-800 hover:font-bold">Pricing</a></div>
-        </div>
         <div class=" grid grid-cols-3">
             <header class="col-span-2 mt-15 block p-4 md:px-20 w-64 md:w-full">
                 <span class="p-2 text-pink-600 bg-white rounded-md ">Find life Partner</span>
@@ -69,7 +62,7 @@
                             </span>
                         </div>
                     </div>
-                    <div class="flex gap-x-3 items items-center px-4 py-2 bg-white text-black rounded-lg  w-40">
+                    <div class="flex gap-x-3 items items-center px-4 py-2 bg-white text-black rounded-lg  w-40 mb-2">
                         <span><i class="fa-brands fa-app-store text-xl"></i></span>
                         <div>Get it On<br>
                             <span class="font-bold">
@@ -92,7 +85,7 @@
          font-semibold rounded-lg">Feature</div>
         <h3 class="text-lg md:text-2xl font-bold">Impressive Features</h3>
         <!-- Features itself -->
-        <div class="grid grid-cols-3 gap-x-1 md:gap-x-4">
+        <div class="grid grid-cols-3 gap-x-1 md:gap-x-4 items-center">
             <!-- Ones of it -->
             <div class="col-span-1 flex flex-col justify-center items-center gap-y-2">
                 <div class="p-2 bg-pink-500 h-10 w-10 md:h-15 md:w-15 rounded-xl">
@@ -141,102 +134,275 @@
         <div class="col-span-1 flex flex-col gap-y-3">
             <h3 class="text-xl md:text-2xl font-bold text-center md:text-left">How App Works</h3>
             <p class="text-center md:text-left">Flow is for everyone,from freelancers and business owners to young families.</p>
-            <div class=" px-2 py-1 font-semibold text-white text-center md:text-left hover:bg-yellow-500 rounded-md hover:text-blue-950 hover:w-30 hover:text-semibold transition ease-out duration-500 hover:cursor-pointer">
+            <div class=" px-2 py-1 font-semibold text-white text-center md:text-left hover:bg-yellow-500 rounded-md hover:text-blue-950 hover:w-30 hover:text-semibold transition ease-in duration-500 hover:cursor-pointer mb-4">
                 Check More
             </div>
         </div>
     </div>
     
-    <!-- TESTIMONIAL -->
-    <div>
-        <div></div>
-        <h3></h3>
-        <div>
+    <!-- Pricing area -->
+    <div class="bg-white flex flex-col px-4 md:px-8 py-15 justify-center items-center gap-y-10">
+        <div class=" w-20 py-2 px-2 text-center text-sm bg-pink-200 text-purple-900
+         font-semibold rounded-lg">Pricing</div>
+        <h3 class="text-xl md:text-2xl font-bold">We have smart Pricing</h3>
+        <div class="flex flex-col justify-center items-center md:flex-row gap-y-5 gap-x-5">
             <!-- First plan -->
-            <div>
-                <div>
-                    <h5></h5>
-                    <div>
-                        <span></span>
+            <div class="py-4 px-8 bg-zinc-400 flex flex-col justify-center items-center rounded-md gap-y-2 hover:translate-y-[-8px] cursor-pointer">
+                <div class="flex flex-col justify-center items-center">
+                    <h5 class="text-lg font-bold text-purple-950">Basic</h5>
+                    <div class="font-bold text-xl text-purple-950">$30
+                        <span class="text-sm text-white font-bold">/month</span>
                     </div>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                        className="size-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Live streaming</div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Live Chat & Countdown</div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Unlimited friend request</div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Unlimited loves</div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Unlimited free coins</div>
                 <!-- button here -->
-                <div></div>
+                <div class="px-4 py-2 font-bold border rounded-md mt-4 border-pink-800 border-1.5 hover:bg-black hover:text-white transition ease-in duration-500 cursor-pointer ">
+                    Buy Now
+                </div>
             </div>
             <!-- Second plan -->
-            <div>
-                <div>
-                    <h5></h5>
-                    <div>
-                        <span></span>
+            <div class="py-4 px-8 bg-zinc-400 flex flex-col justify-center items-center rounded-md gap-y-2 hover:translate-y-[-8px] cursor-pointer">
+                <div class="flex flex-col justify-center items-center">
+                    <h5 class="text-lg font-bold text-purple-950">Standard</h5>
+                    <div class="font-bold text-xl text-purple-950">$60
+                        <span class="text-sm text-white font-bold">/month</span>
                     </div>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Live streaming
+                </div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Live Chat & Countdown
+                </div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Unlimited friend request
+                </div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Unlimited loves
+                </div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Unlimited free coins
+                </div>
                 <!-- button here -->
-                <div></div>
+                <div
+                    class="px-4 py-2 font-bold border rounded-md mt-4 border-pink-800 border-1.5 hover:bg-black hover:text-white transition ease-in duration-500 cursor-pointer ">
+                    Buy Now
+                </div>
             </div>
             <!-- Third plan -->
-            <div>
-                <div>
-                    <h5></h5>
-                    <div>
-                        <span></span>
+            <div class="py-4 px-8 bg-zinc-400 flex flex-col justify-center items-center rounded-md gap-y-2 hover:translate-y-[-8px] cursor-pointer">
+                <div class="flex flex-col justify-center items-center">
+                    <h5 class="text-lg font-bold text-purple-950">Premium</h5>
+                    <div class="font-bold text-xl text-purple-950">$90
+                        <span class="text-sm text-white font-bold">/month</span>
                     </div>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Live streaming
+                </div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Live Chat & Countdown
+                </div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Unlimited friend request
+                </div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Unlimited loves
+                </div>
+                <div class="text-white flex justify-center items-center">
+                    <span class="p-2 rounded-full flex justify-center items-center bg-green-400 mr-2">
+                        <svg class="h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                            stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                    </span>
+                    Unlimited free coins
+                </div>
                 <!-- button here -->
-                <div></div>
+                <div
+                    class="px-4 py-2 font-bold border rounded-md mt-4 border-pink-800 border-1.5 hover:bg-black hover:text-white transition ease-in duration-500 cursor-pointer ">
+                    Buy Now
+                </div>
             </div>
         </div>
     </div>
-    <!-- Promoo area -->
-    <div>
-        <div>
-            <h3></h3>
-            <span></span>
-            <div>
-                <div>
-    
-                </div>
-                <div>
-    
+    <!-- Promo area -->
+    <div class="bg-gray-100 px-3 md:px-14 py-12 md:py-16 lg:py-22 relative">
+        <div class="grid grid-cols-2 bg-[linear-gradient(to_top_right,#add8e6_0%,#add8e6_10%,#ffe0ec_25%,#ffe0ec_80%,#f4f4f5_85%,#f4f4f5_85%)] px-4 md:px-14 py-4 md:py-8 rounded-lg">
+            <div class="col-span-1">
+                <h3 class="font-bold text-purple-800 text-xl">
+                    Download<br>
+                    A-More App
+                </h3>
+                <span class="text-xs md:text-lg">We do not affect your cash flows all transaction are financed by us.</span>
+                <div class="block gap-x-4 md:flex">
+                    <div class="flex gap-x-3 items-center px-3 py-2 bg-black text-white rounded-lg w-32 md:w-40 my-2">
+                        <span class="text-xs md:text-sm"><i class="fa-brands fa-apple text-xl"></i></span>
+                        <div class="text-xs md:text-sm">Download on<br>
+                            <span class="font-bold text-xs md:text-sm">
+                                Apple store
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex gap-x-3 items-center px-3 py-2 bg-white text-black rounded-lg w-32 md:w-40 my-2">
+                        <span class="text-xs md:text-sm"><i class="fa-brands fa-app-store text-xl"></i></span>
+                        <div class="text-xs md:text-sm">Get it On<br>
+                            <span class="font-bold text-xs md:text-sm">
+                                App store
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <img class="col-span-1 h-100 absolute top-1 md:top-10 -right-10 md:right-16 lg:right-24" src="images/apple.png">
     </div>
     <!-- Footer area -->
-    <div>
-        <div></div>
-        <hr>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+    <div class="flex flex-col bg-purple-800 py-6 px-4 md:px-16 lg:px-24 gap-y-4">
+        <div class="font-bold text-lg text-white text-center">
+            Ready to get started? <span class=" text-sm px-2 py-2 font-sm hover:text-purple-800 hover:bg-yellow-400 rounded-lg transition ease-out duration-500">Get Started</span>
         </div>
-        <div>
-            <div>
-                <div></div>
-                <div></div>
+        <hr class="text-white">
+        <div class="flex flex-col gap-y-4 md:grid md:grid-cols-5 gap-x-2">
+            <div class="flex flex-col md:col-span-2 gap-y-2">
+                <h4 class="font-bold text-white text-lg tracking-wider">Subscribe to our newsletter<h4>
+                <div class="bg-white p-2 flex flex-row justify-between items items-center rounded-full w-60">
+                <input class="text-gray-500 text-sm outline-none border-none" type="email" placeholder="Email address">
+                <svg class="h-4 text-pink-700 font-bold cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                    className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+                </div>
             </div>
-            <div></div>
+            <div class="flex flex-col gap-y-2 col-span-1">
+                <h4 class="font-bold text-white text-lg tracking-wider">Services</h4>
+                <p class="text-white"><a>Email marketing</a></p>
+                <p class="text-white"><a>Campaign</a></p>
+                <p class="text-white"><a>Branding</a></p>
+                <p class="text-white"><a>Offline</a></p>
+            </div>
+            <div class="flex flex-col gap-y-2 col-span-1">
+                <h4 class="font-bold text-white text-lg tracking-wider">About</h4>
+                <p class="text-white"><a>Our story</a></p>
+                <p class="text-white"><a>Benefits</a></p>
+                <p class="text-white"><a>Team</a></p>
+                <p class="text-white"><a>Careers</a></p>
+            </div>
+            <div class="flex flex-col gap-y-2 col-span-1">
+                <h4 class="font-bold text-white text-lg tracking-wider">Help</h4>
+                <p class="text-white"><a>FAQ</a></p>
+                <p class="text-white"><a>Contact us</a></p>
+
+            </div>
         </div>
-        <div></div>
+        <div class="flex flex-row justify-between items-center">
+            <div class="flex flex-col md:flex-row gap-x-3 text-white">
+                <div>Terms and Condition</div>
+                <div>Privacy Policy</div>
+            </div>
+            <div class="flex gap-x-2">
+                <p class="flex justify-center items-center p-2 bg-pink-500 rounded-full text-white"><i class="fa-brands fa-instagram"></i></p>
+                <p class="flex justify-center items-center p-2 bg-white rounded-full text-black"><i class="fa-brands fa-twitter"></i></p>
+                <p class="flex justify-center items-center p-2 bg-white rounded-full text-black"><i class="fa-brands fa-facebook"></i></p>
+            </div>
+        </div>
     </div>
-    
+    <div class="bg-gray-600 text-white text-center p-3">
+        Copyright@Uiroll <span id="year"></span> .Crafted with love.
+    </div>
     <script src="scripts.js"></script>
 </body>
 </html>
